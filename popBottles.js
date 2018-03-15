@@ -35,4 +35,6 @@ while (bottlesExchangeable >=2 || bottleCaps >=4){
 
 result = bottlesPurchased + bottlesEarnedbot + bottlesEarnedcap;
 console.log('TOTAL BOTTLES:'+result);
+console.log('REMAINING CAPS: '+bottleCaps);
+console.log('REMAINING BOTTLES: '+bottlesExchangeable);
 console.log('Total Earned: ' + '\n' + '    Bottles: '+bottlesEarnedbot + '\n'+'    Caps: '+  bottlesEarnedcap+ '\n' + 'Change: $'+change);
